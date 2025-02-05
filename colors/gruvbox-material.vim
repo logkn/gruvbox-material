@@ -1355,13 +1355,6 @@ highlight! link FzfLuaBorder Grey
 highlight! link FzfLuaTitle Title
 " }}}
 " folke/snacks.nvim {{{
-" highlight! link SnacksDashboardDesc Yellow
-" highlight! link SnacksDashboardDir Grey
-" highlight! link SnacksDashboardFile Blue
-" highlight! link SnacksDashboardHeader Orange
-" highlight! link SnacksDashboardIcon Orange
-" highlight! link SnacksDashboardKey Green
-" highlight! link SnacksDashboardTitle RedItalic
 highlight! link SnacksPicker Normal
 highlight! link SnacksPickerBorder Grey
 highlight! link SnacksPickerTitle Title
