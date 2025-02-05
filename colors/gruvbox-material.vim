@@ -1354,6 +1354,29 @@ highlight! link TelescopeSelection DiffAdd
 highlight! link FzfLuaBorder Grey
 highlight! link FzfLuaTitle Title
 " }}}
+" folke/snacks.nvim {{{
+highlight! link SnacksDashboardDesc Yellow
+highlight! link SnacksDashboardDir Grey
+highlight! link SnacksDashboardFile Blue
+highlight! link SnacksDashboardHeader Blue
+highlight! link SnacksDashboardIcon Blue
+highlight! link SnacksDashboardKey Green
+highlight! link SnacksDashboardTitle RedItalic
+highlight! link SnacksPicker Normal
+highlight! link SnacksPickerBorder Grey
+highlight! link SnacksPickerTitle Title
+highlight! link SnacksPickerFooter SnacksPickerTitle
+highlight! link SnacksPickerTotals Grey
+highlight! link SnacksPickerSelected Blue
+highlight! link SnacksPickerInputCursorLine Normal
+highlight! link SnacksPickerListCursorLine CursorLine
+call gruvbox_material#highlight('SnacksPickerMatch', s:palette.green, s:palette.none, 'bold')
+highlight! link SnacksPickerToggle Yellow
+highlight! link SnacksPickerDir Comment
+highlight! link SnacksPickerBufFlags Blue
+highlight! link SnacksPickerGitStatus Special
+highlight! link SnacksPickerKeymapRhs Normal
+" }}}
 " lewis6991/gitsigns.nvim {{{
 highlight! link GitSignsAdd GreenSign
 highlight! link GitSignsChange BlueSign
