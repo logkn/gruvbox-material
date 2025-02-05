@@ -1358,8 +1358,8 @@ highlight! link FzfLuaTitle Title
 highlight! link SnacksDashboardDesc Yellow
 highlight! link SnacksDashboardDir Grey
 highlight! link SnacksDashboardFile Blue
-highlight! link SnacksDashboardHeader Blue
-highlight! link SnacksDashboardIcon Blue
+highlight! link SnacksDashboardHeader Orange
+highlight! link SnacksDashboardIcon Orange
 highlight! link SnacksDashboardKey Green
 highlight! link SnacksDashboardTitle RedItalic
 highlight! link SnacksPicker Normal
